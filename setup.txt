@@ -1,0 +1,14 @@
+security
+/secure passphrase this is my passphrase
+
+add server
+/server add libera irc.libera.chat/6697 -tls
+/set irc.server.libera.autoconnect on
+/set irc.server.libera.command "/msg nickserv identify ${sec.data.libera}"
+
+setup nick for server 
+edit irc.conf
+
+set password for server
+/secure set libera mypassword
+
